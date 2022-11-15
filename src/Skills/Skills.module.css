@@ -1,0 +1,27 @@
+
+
+.title {
+    background-color: #dddfd9;
+}
+
+.skillsBlock {
+    background-color: #00d2d7;
+    height: 100vh;
+}
+
+/*контейнер My skills*/
+.skillsContainer {
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+}
+
+.skills {
+    border: 1px solid;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,22 @@
+
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /*внутри по центру*/
+    width: 600px;
+    background-color: #dcdf65;
+    margin: 10px 20px;
+    text-align: center; /*выравнивание внутри span*/
+    justify-content: center;
+}
+
+.icon {
+    width: 70%;
+    height: 300px;
+    background-color: #69dfdf;
+}
+
+.description {
+
+}
