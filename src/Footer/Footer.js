@@ -5,8 +5,13 @@ const Footer = () => {
     return (
         <div className={style.footer}>
                 <h2 className={style.name}>FirstName Name</h2>
-            <div className={style.info}>info</div>
-            <div className={style.info}>year</div>
+            <div className={style.info}>
+                <div className={style.infoBlock}>info</div>
+                <div className={style.infoBlock}>info</div>
+                <div className={style.infoBlock}>info</div>
+                <div className={style.infoBlock}>info</div>
+            </div>
+            <div className={style.info}>Все права защищены</div>
         </div>
     );
 }

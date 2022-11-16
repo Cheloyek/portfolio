@@ -6,7 +6,7 @@
 
 .skillsBlock {
     background-color: #00d2d7;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*контейнер My skills*/
@@ -14,7 +14,6 @@
     align-items: center;
     justify-content: start;
     flex-direction: column;
-
 }
 
 .skills {
@@ -24,4 +23,5 @@
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }

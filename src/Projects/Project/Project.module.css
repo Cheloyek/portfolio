@@ -11,12 +11,29 @@
     justify-content: center;
 }
 
-.icon {
-    width: 70%;
-    height: 300px;
-    background-color: #69dfdf;
-}
 
 .description {
+    background-color: #4988fa;
+}
 
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title {
+    background-color: #4988fa;
+}
+
+.icon {
+    display: flex;
+    width: 70%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #69dfdf;
+    background-size: cover;
+    background-position: center;
 }

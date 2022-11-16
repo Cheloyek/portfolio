@@ -6,7 +6,7 @@
 
 .contactsBlock {
     background-color: #00d2d7;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*контейнер My skills*/
@@ -26,11 +26,12 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 
 .contact {
-    width: 50%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center; /*внутри по центру*/

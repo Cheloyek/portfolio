@@ -16,6 +16,7 @@
     display: flex;
     text-align: center;
     justify-content: center;
+    background-color: #528cf3;
 }
 
 .info {
@@ -24,4 +25,12 @@
     width: 300px;
     justify-content: center;
     margin: 30px 0px;
+}
+
+.infoBlock {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    background-color: #528cf3;
 }
